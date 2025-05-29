@@ -56,7 +56,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Depth: 2
-    - _Depth_Distance: 0.91
+    - _Depth_Distance: 0.9
     - _Foam_Amount: 1
     - _Foam_Cut_Off: 4.23
     - _Lerp_T: 1
@@ -66,7 +66,7 @@ Material:
     - _Strength: 0.02
     - _Use_Normal_Height: 1
     - _Wave_Speed: 1
-    - _Wave_Strength: 0.25
+    - _Wave_Strength: 0
     m_Colors:
     - _Deep_Color: {r: 0, g: 0.005612373, b: 0.4150943, a: 0.3882353}
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}

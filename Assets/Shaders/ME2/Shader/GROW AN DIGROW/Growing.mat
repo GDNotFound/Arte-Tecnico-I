@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Diform
-  m_Shader: {fileID: -6465566751694194690, guid: cde614815efc30344ad7d405c0cf8ee9, type: 3}
+  m_Name: Growing
+  m_Shader: {fileID: -6465566751694194690, guid: d7c6fe9c959174d409b72c650ed65c44, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,6 +24,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_2868e33b85f1497b8ab8f91ea7e8d9c3_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8f8af13e06094aeda40f89186e9eab63_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,13 +46,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Curvature: 0
+    - _DistanceMultiplier: 1
+    - _MaxScale: 10
+    - _MinScale: 0.2
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _Radius: 40
+    m_Colors:
+    - _Camera_Pos: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0, g: 0.9411765, b: 1, a: 0}
+    - _Max_Scale: {r: 500, g: 500, b: 500, a: 0}
+    - _Min_Scale: {r: 0.2, g: 0.2, b: 0.2, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1811247150182647324
+--- !u!114 &5651046586315209728
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
